@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34D0AFA212E0AC700AEBB39 /* EffectUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D0AF9212E0AC700AEBB39 /* EffectUIButton.swift */; };
 		C3A58A1020F15B4E00D2D493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A58A0F20F15B4E00D2D493 /* AppDelegate.swift */; };
 		C3A58A1220F15B4E00D2D493 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A58A1120F15B4E00D2D493 /* RecordSoundsViewController.swift */; };
 		C3A58A1520F15B4E00D2D493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A58A1320F15B4E00D2D493 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C34D0AF9212E0AC700AEBB39 /* EffectUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectUIButton.swift; sourceTree = "<group>"; };
 		C3A58A0C20F15B4E00D2D493 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A58A0F20F15B4E00D2D493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3A58A1120F15B4E00D2D493 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				C3A58A1620F15B5000D2D493 /* Assets.xcassets */,
 				C3A58A1820F15B5000D2D493 /* LaunchScreen.storyboard */,
 				C3A58A1B20F15B5000D2D493 /* Info.plist */,
+				C34D0AF9212E0AC700AEBB39 /* EffectUIButton.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				C3AFD33F20F31ADB00130810 /* PlaySoundsViewController.swift in Sources */,
 				C3A58A1020F15B4E00D2D493 /* AppDelegate.swift in Sources */,
 				C3E12447210A53AE00ED707E /* PlaySoundsViewController-Audio.swift in Sources */,
+				C34D0AFA212E0AC700AEBB39 /* EffectUIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
