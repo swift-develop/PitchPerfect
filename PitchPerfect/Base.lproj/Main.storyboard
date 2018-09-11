@@ -80,7 +80,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gk8-em-uRl">
                                         <rect key="frame" x="0.0" y="0.0" width="448" height="56"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCN-Er-x6n" userLabel="Slow Button" customClass="EffectUIButton" customModule="PitchPerfect" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCN-Er-x6n" userLabel="Slow Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="224" height="56"/>
                                                 <state key="normal" image="Slow"/>
                                                 <connections>
