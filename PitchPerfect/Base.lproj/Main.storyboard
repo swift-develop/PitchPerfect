@@ -164,7 +164,6 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="allButtons" destination="euD-21-CVM" id="RAk-Du-0y9"/>
                         <outlet property="chipmunkButton" destination="QV1-Jh-AZU" id="bbI-1W-f76"/>
                         <outlet property="echoButton" destination="15b-Rb-nV6" id="N83-x9-6ph"/>
                         <outlet property="rabbitButton" destination="jNH-PO-OuM" id="Ica-Nf-8P5"/>
