@@ -126,7 +126,7 @@
                                                     <action selector="playSoundForBUtton:" destination="AyW-9I-9YO" eventType="touchUpInside" id="zSV-Gk-ipf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euD-21-CVM" userLabel="Reverb Button">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euD-21-CVM" userLabel="Reverb Button" customClass="EffectUIButton" customModule="PitchPerfect" customModuleProvider="target">
                                                 <rect key="frame" x="224" y="0.0" width="224" height="56"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
