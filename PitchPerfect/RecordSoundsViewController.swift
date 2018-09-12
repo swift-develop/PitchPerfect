@@ -63,20 +63,15 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         try! audioSession.setActive(false)
     }
     
-    func setUItoRecord(_ recording:Bool)
-    {
+    func setUItoRecord(_ recording:Bool) {
         recordingLabel.text = recording ? "Recordging in Progress" : "Tap to Record"
         recordButton.isEnabled = !recording
         stopRecordingButton.isEnabled = recording;
     }
     
-    
-    
-    
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         if flag {
             performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url )
-        } else {
         }
     }
     
@@ -88,8 +83,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //         Get the new view controller using segue.destinationViewController.
         //         Pass the selected object to the new view controller.
-        if segue.identifier == "stopRecording"
-        {
+        if segue.identifier == "stopRecording" {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
             let recordedAudioURL = sender as! URL
             playSoundsVC.recordedAudioURL = recordedAudioURL
